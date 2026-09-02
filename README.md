@@ -4,6 +4,8 @@ An online learning platform where anyone can learn from great courses — and an
 
 Built with **React + Vite**, styled with **Tailwind CSS**, and powered by **Clerk** for authentication.
 
+**Live site:** [10xacademy.netlify.app](https://10xacademy.netlify.app/)
+
 ---
 
 ## ✨ What it does
