@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb;        /* Main brand color — use for buttons, links, active states */
+  --color-primary-light: #eff6ff;  /* Light blue — use for hover states, light badge backgrounds */
+  --color-primary-dark: #1d4ed8;   /* Darker blue — use for pressed/active button states */
+  --color-surface: #ffffff;        /* Main page background, card backgrounds */
+  --color-surface-alt: #FDFCFA;    /* Warm off-white — use for alternating sections, reading areas */
+  --color-surface-warm: #FAF5EF;   /* Beige — use for warm section backgrounds, testimonials */
+  --color-surface-blue: #F4F8FF;   /* Ice blue — use for blue-tinted sections paired with primary */
+  --color-navbar-bg: #cffafe;      /* Cyan — use for navbar background on home page */
+  --color-heading: #1f2937;        /* Dark gray — use for all headings/titles */
+  --color-body: #6b7280;           /* Medium gray — use for paragraph text, descriptions  #6b7280 */
+  --color-muted: #9CA3AF;          /* Light gray — use for placeholder text, disabled labels */
+  --color-border: #6b7280;         /* Mid gray — use for card borders, divider lines */
+  --color-border-light: #EAEDF0;   /* Subtle gray — use for subtle dividers, table rows */
+  --color-accent: #F59E0B;         /* Amber — use for badges, ratings stars, achievement highlights */
+  --color-success: #10B981;        /* Green — use for completed courses, progress bars, success msgs */
+  --color-error: #EF4444;          /* Red — use for failed quizzes, error messages, warnings */
+
+  --text-course-details-heading-small: 26px;
+  --text-course-details-heading-small--line-height: 36px;
+
+  --text-course-details-heading-large: 36px;
+  --text-course-details-heading-large--line-height: 44px;
+
+  --text-home-heading-small: 26px;
+  --text-home-heading-small--line-height: 36px;
+
+  --text-home-heading-large: 46px;
+  --text-home-heading-large--line-height: 44px;
+
+  --text-default: 16px;
+  
+
+  --section-height: 500px;
+  --course-card: 424px;
+  --custom-card: 0px 4px 15px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+*{
+  font-family: Outfit;
+}
+
+@layer base {
+  .gridTemplateColumns {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.rich-text { font-size: 15px; color: #7A7B7D; }
+
+.rich-text p { margin-bottom: 16px; }
+
+.rich-text h1 { font-size: 36px; font-weight: 800; color: #252525; margin: 32px 0; }
+
+.rich-text h2 { font-size: 22px; font-weight: 700; color: #252525; margin: 24px 0; }
+
+.rich-text h3 { font-size: 18px; font-weight: 600; color: #333333; margin: 20px 0; }
+
+.rich-text h4 { font-size: 16px; font-weight: 500; color: #444444; margin: 16px 0; }
+
+.rich-text h5 { font-size: 14px; font-weight: 400; color: #555555; margin: 12px 0; }
+
+.rich-text h6 { font-size: 12px; font-weight: 400; color: #666666; margin: 8px 0; }
+
+.rich-text strong { font-weight: 700; }
+
+.rich-text ol { margin-left: 30px; list-style-type: decimal; }
+
+.rich-text ul { margin-left: 30px; list-style-type: disc; }
+
+.rich-text li { margin-bottom: 8px; }
