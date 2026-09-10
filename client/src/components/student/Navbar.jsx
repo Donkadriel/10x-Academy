@@ -17,9 +17,9 @@ export const Navbar = () => {
       <img onClick={()=> navigate('/')}
         src={assets.logo}
         alt="Logo"
-        className="rounded-full cursor-pointer"
+        className="cursor-pointer w-15 sm:w-20"
       />
-      <div className="hidden md:flex items-center gap-5 text-body">
+      <div className="hidden md:flex items-center gap-5 text-white/85">
         <div className="flex items-center gap-5">
           {user && (
             <>
@@ -48,7 +48,7 @@ export const Navbar = () => {
         )}
       </div>
       {/* For phone Screens*/}
-      <div className="md:hidden flex items-center gap-2 sm:gap-5 text-body">
+      <div className="md:hidden flex items-center gap-2 sm:gap-5 text-white/85">
         <div className="flex items-center gap-1 sm:gap-2 max-sm:text-xs">
           {user && (
             <>

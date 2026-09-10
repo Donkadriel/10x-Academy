@@ -3,14 +3,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #2563eb;        /* Main brand color — use for buttons, links, active states */
-  --color-primary-light: #eff6ff;  /* Light blue — use for hover states, light badge backgrounds */
-  --color-primary-dark: #1d4ed8;   /* Darker blue — use for pressed/active button states */
-  --color-surface: #ffffff;        /* Main page background, card backgrounds */
-  --color-surface-alt: #FDFCFA;    /* Warm off-white — use for alternating sections, reading areas */
-  --color-surface-warm: #FAF5EF;   /* Beige — use for warm section backgrounds, testimonials */
-  --color-surface-blue: #F4F8FF;   /* Ice blue — use for blue-tinted sections paired with primary */
-  --color-navbar-bg: #cffafe;      /* Cyan — use for navbar background on home page */
+  --color-primary: #D97706;        /* Warm amber — main brand color for buttons, links, active states */
+  --color-primary-light: #FEF3C7;  /* Light amber — use for hover states, light badge backgrounds */
+  --color-primary-dark: #B45309;   /* Dark amber — use for pressed/active button states */
+  --color-surface: #FFFDF9;        /* Warm cream — main page background, card backgrounds */
+  --color-surface-alt: #FDF8F0;    /* Warm off-white — use for alternating sections, reading areas */
+  --color-surface-warm: #FAF3E7;   /* Beige — use for warm section backgrounds, testimonials */
+  --color-surface-blue: #F6EFE3;   /* Warm cream — use for creamy-tinted sections paired with primary */
+  --color-navbar-bg: #7A1F2B;      /* Deep oxblood — use for navbar background on home page */
   --color-heading: #1f2937;        /* Dark gray — use for all headings/titles */
   --color-body: #6b7280;           /* Medium gray — use for paragraph text, descriptions  #6b7280 */
   --color-muted: #9CA3AF;          /* Light gray — use for placeholder text, disabled labels */
